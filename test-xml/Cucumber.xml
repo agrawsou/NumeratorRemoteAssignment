@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.40539">
+    <testcase classname="Login Feature" name="Login test" time="43.40539">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When User logins by using the "vishal.jadhav@numerator.com" and "Test1234" as credentials.passed
+Then User verifies that login is successful.................................passed
+When User selects the desired "QA Testing - Promo" from the user accounts list.passed
+Then User verifies that the selected "QA Testing - Promo" exists in the database.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

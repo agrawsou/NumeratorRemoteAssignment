@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login test",
+        "description": "",
+        "id": "login-feature;login-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 808682020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13309206291,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "SampleStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16797409719,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logins by using the \"vishal.jadhav@numerator.com\" and \"Test1234\" as credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vishal.jadhav@numerator.com",
+                  "offset": 26
+                },
+                {
+                  "val": "Test1234",
+                  "offset": 60
+                }
+              ],
+              "location": "SampleStepDef.userLogin(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9317178156,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies that login is successful",
+            "match": {
+              "location": "SampleStepDef.verifyLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2822927015,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects the desired \"QA Testing - Promo\" from the user accounts list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Testing - Promo",
+                  "offset": 26
+                }
+              ],
+              "location": "SampleStepDef.selectAccount(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349986539,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies that the selected \"QA Testing - Promo\" exists in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Testing - Promo",
+                  "offset": 33
+                }
+              ],
+              "location": "SampleStepDef.verifyAccountInDB(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/USER/Project/DemoTest/Feature/login.feature"
+  }
+]
